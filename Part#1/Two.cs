@@ -6,7 +6,7 @@ class Program
       {
            int[] array = new int[5];
 
-           for (int I = 0; I < array.Length; i++)
+           for (int i = 0; i < array.Length; i++)
            {
                 Console.Write(“Enter a number:  ”);
                 int number = Convert.ToInt32(Console.ReadLine());
