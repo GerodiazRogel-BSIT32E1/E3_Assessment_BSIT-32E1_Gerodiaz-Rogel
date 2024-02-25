@@ -13,12 +13,12 @@ class Program
                 array[i] = number * number;
            }
 
-           int max = array[0];
+           int maxs = array[0];
            for (int i = 1; I < array.Length; i++)
            {
                  if (array[i] > max)
                  {
-                       max = array[i];
+                       maxs = array[i];
                  }
            }
       }
